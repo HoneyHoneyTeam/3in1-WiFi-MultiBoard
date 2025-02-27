@@ -1,7 +1,7 @@
 # 3in1 WiFi MultiBoard
 Update: 27 Feb 2025 by John @ Honey Honey Team
 
-![Alt text](https://github.com/HoneyHoneyTeam/3in1-WiFi-MultiBoard/blob/main/Assets/images/Whitecase.withFZ.1.jpg)
+![Alt text](Assets/images/Whitecase.withFZ.1.jpg)
 ![Alt text](assets/images/Front.withoutFZ.white.black.jpg)
 ![Alt text](assets/images/back.withoutFZ.white.black.jpg)
 ![Alt text](assets/images/Back.WithoutFZ%2Cwhite.black.jpg)
