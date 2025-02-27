@@ -125,19 +125,24 @@ To all our clients who purchased items from our shop, whether from Etsy, eBay, T
 
 ## FAQ 
 
-1. How do we do the pre-shipped check for functionality of the mulitiboard
+**1. How do we do the pre-shipped check for functionality of the mulitiboard**
 
 <details>
 <summary> Click the Triangle for more details   </summary>
 
 <br/>
+
 **- For testing ESP32 functionality:**
+
 At the Flipper Zero, [ Apps ] - > [ WiFi ] - > [ [ESP32] WiFi Marauder ] - > [ Scan ap ]. The board should start scanning the surrounding area and show RSSI / ESSID / Beacon info. 
 
+
 **- For testing NRF24 functionality:**
+
 At the Flipper Zero, navigate to [ Apps ] -> [ GPIO] -> [ [NRF24] sniffer ]. By pressing the Enter / Confirm / Round button in the middle of the Flipper Zero, Flipper should show [Yes] or [No] in the [SNIFFING] section. Meanwhile, the ADDRESS and RATE sections should pick up some signal if you have a wireless mouse/keyboard nearby.
 
-**- For Testing C1101. **
+**- For Testing C1101:**
+
 There is no a straightforward way to test but putting some distance between the flipper and the device who send / receive 433mhz signal.
 
 
