@@ -2,13 +2,13 @@
 Update: 27 Feb 2025 by John @ Honey Honey Team
 
 ![Alt text](Assets/images/Whitecase.withFZ.1.jpg)
-![Alt text](assets/images/Front.withoutFZ.white.black.jpg)
-![Alt text](assets/images/back.withoutFZ.white.black.jpg)
-![Alt text](assets/images/Back.WithoutFZ%2Cwhite.black.jpg)
-![Alt text](assets/images/side.withoutFZ.white.black.jpg)
-![Alt text](assets/images/Top.withFZ.white.jpg)
-![Alt text](assets/images/Top.WithFZ.black.jpg)
-![Alt text](assets/images/antenna.bottom.jpeg)
+![Alt text](assets/images/Whitecase.withFZ.2.jpg)
+![Alt text](assets/images/Whitecase.withFZ.3.jpg)
+![Alt text](assets/images/Whitecase.withFZ.4.jpg)
+![Alt text](assets/images/Crystalcase.withoutFZ.1.jpg)
+![Alt text](assets/images/Crystalcase.withoutFZ.2.jpg)
+![Alt text](assets/images/Crystalcase.withoutFZ.3.jpg)
+
 
 <br/>
 
