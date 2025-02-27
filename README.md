@@ -2,12 +2,12 @@
 Update: 27 Feb 2025 by John @ Honey Honey Team
 
 ![Alt text](Assets/images/Whitecase.withFZ.1.jpg)
-![Alt text](assets/images/Whitecase.withFZ.2.jpg)
-![Alt text](assets/images/Whitecase.withFZ.3.jpg)
-![Alt text](assets/images/Whitecase.withFZ.4.jpg)
-![Alt text](assets/images/Crystalcase.withoutFZ.1.jpg)
-![Alt text](assets/images/Crystalcase.withoutFZ.2.jpg)
-![Alt text](assets/images/Crystalcase.withoutFZ.3.jpg)
+![Alt text](Assets/images/Whitecase.withFZ.2.jpg)
+![Alt text](Assets/images/Whitecase.withFZ.3.jpg)
+![Alt text](Assets/images/Whitecase.withFZ.4.jpg)
+![Alt text](Assets/images/Crystalcase.withoutFZ.1.jpg)
+![Alt text](Assets/images/Crystalcase.withoutFZ.2.jpg)
+![Alt text](Assets/images/Crystalcase.withoutFZ.3.jpg)
 
 
 <br/>
