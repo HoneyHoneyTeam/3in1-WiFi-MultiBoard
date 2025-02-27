@@ -38,6 +38,7 @@ It is designed to extend the functionality of the Flipper Zero, adding support f
 - Simply plug the Multiboard into the Flipper Zero, then choose one of the relative apps on the Flipper, and you're good to go.
 - The nRF24 and CC1101 chipsets do not require additional firmware to function. Most Flipper Zero firmware, including Momentum, Unleashed, and others, support them natively.
 - The ESP32 requires Marauder firmware to function, and it comes pre-loaded with the firmware on the ESP32 chipset.
+- There is NO physical switch for switching functionalities between NRF24 / ESP32 / CC1101 chipsets. The switching function has been automated based on what app is used on Flipper Zero. 
 
 <br/>
 
@@ -49,31 +50,50 @@ It is designed to extend the functionality of the Flipper Zero, adding support f
 
 To flash the Marauder onto the Multiboard, we suggest using **Google Chrome**.  
 
-There are two buttons located near the screen: the button on the right is the Boot button, and the one on the left is the Reset button. 
+1. Open the Web Flasher called < FzeeFlasher > [https://fzeeflasher.com/](https://fzeeflasher.com). 
 
-1. Open the Web Flasher called < ESPWebTool > [https://esp.huhn.me/](https://esp.huhn.me/). 
+2. Connect the 3-in-1 board to the PC/Mac using a USB-C cable. Ensure the cable has data transfer capability. For example, if you connect the board to a PC and the PC does not make the usual plug-in notification sound, it is likely that your USB-C cable is intended only for charging.
 
-2. Connect the USB-C cable to your laptop or computer. Then, while **holding the BOOT button** (on the right side of the board), plug the USB-C cable into the board. AKA, getting the board into Bootloader mode rather than starting up normally
+3. On https://fzeeflasher.com/, go to [Connect]. In the pop-up window, select [USB Serial (ComXxX) - Paired], which usually has only one serial for most users. Then, click [Connect].
 
-  ![Alt text](assets/images/antenna.bottom.jpeg)
-
-4. Then, click "Connect" on the website, as shown in the next picture.
-
-![Alt text](assets/images/ESPwebtool.connect.png)
+4. If everything is working correctly, the website should allow you to select the model of the board. Choose [ESP32-S2] under the KOKO Marauder section. Then, select your preferred [Version] of Marauder and choose [Marauder] under [Firmware].
    
-4. In the prompt window, select <ESP32-S2 (COM X)> (X will be a number between 1 and 9). 
+5. Then the website should allow you to hit [ PROGRAM ] bottom.
+    
+6. In a minute then you are golden. 
 
-5. Open [Marauder firmware website](https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware#using-spacehuhn-web-updater), and download the **four** related files under **Flipper Zero WiFi Dev Board**, as the 3-in-1 board uses the same chipset as the original Flipper WiFi Dev Board, as showed in the following picture. 
-
-6. Next, load up the files into the ESPWebTool as shown in the next picture. After double-checking that you've selected the correct files, click "PROGRAM."
-
-![Alt text](assets/images/ESPwebtool.files.png) 
-
-7. The system should be ready to go in a few minutes.
 
 FYI. 
 
-- Some people might need a few attempts to get it working during the process of getting the board into Bootloader mode, aka holding the BOOT button and connecting the USB-C cable, and the web refresher recogize it. Just be patient and try a few times.
+- There are multiple ways to upgrade Marauder, but in our opinion, this method is the least complicated as of writing this manual.
+
+</details>
+
+<br/>
+
+## How to use headless mode aka command line of the Marauder
+<details>
+<summary> Click the Triangle for more details   </summary>
+
+<br/>
+
+To flash the Marauder onto the Multiboard, we suggest using **Google Chrome**.  
+
+The board supports headless mode, also known as command line (CLI). To simplify the process, we will continue to use [https://fzeeflasher.com/](https://fzeeflasher.com) as the demo platform. Here is how:
+
+1. Open [https://fzeeflasher.com/](https://fzeeflasher.com) in Google Chrome, select [ Serial Terminal ], then [ Connect ]. In the pop-up window, choose [ USB Serial [ComXX] - Paired ], then click [ Connect ]
+
+2. Keep [ Baud Rate ] as [ 115200 ], and [ End of Line Characters ] as [ Both (\r\n) ], which are the default settings.
+
+3. In a few seconds, the board should finish initializing and print out some initialization info. When you see the [ > ] at the end of the printout, the command line is ready to go.
+   
+5. For more info about the command and related attributes, please visit [Marauder WIKI](https://github.com/justcallmekoko/ESP32Marauder/wiki/cli).
+   
+
+
+
+FYI. 
+
 - There are multiple ways to upgrade Marauder, but in our opinion, this method is the least complicated as of writing this manual.
 
 </details>
@@ -83,7 +103,7 @@ FYI.
 ## Our official shop if you would like to support us.  
 1. [Our official site](https://honeyhoneylab.com/)
 2. [Tindie](https://www.tindie.com/stores/honeyhoneytrading/)
-3. [eBay](https://www.ebay.com.au/itm/197055970582)
+3. [eBay](https://www.ebay.com.au/itm/197058578110)
 4. ~~[ETSY Shop](https://www.etsy.com/au/shop/HoneyHoneyTrading)~~
 
 <br/>
@@ -99,14 +119,15 @@ To all our clients who purchased items from our shop, whether from Etsy, eBay, T
 <br/>
 
 ## Credibility
-- Credit of the [web flasher](https://esp.huhn.me/) goes to <ins>@spacehuhn</ins>
+- Credit of the [web flasher](https://fzeeflasher.com/) goes to <ins>@Zardoz, @InfoSecREDD, @ dag </ins>
 - Credit of Marauder Firmware goes to <ins>@JustCallmeCoco</ins>
 
 <br/>
 
 ## FAQ 
 
-To be continue.
+1. How do we do the pre-shipped check for functionality of the mulitiboard
+   
 
 <br/>
 
