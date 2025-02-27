@@ -77,8 +77,6 @@ FYI.
 
 <br/>
 
-To flash the Marauder onto the Multiboard, we suggest using **Google Chrome**.  
-
 The board supports headless mode, also known as command line (CLI). To simplify the process, we will continue to use [https://fzeeflasher.com/](https://fzeeflasher.com) as the demo platform. Here is how:
 
 1. Open [https://fzeeflasher.com/](https://fzeeflasher.com) in Google Chrome, select [ Serial Terminal ], then [ Connect ]. In the pop-up window, choose [ USB Serial [ComXX] - Paired ], then click [ Connect ]
