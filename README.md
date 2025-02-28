@@ -44,7 +44,9 @@ It is designed to extend the functionality of the Flipper Zero, adding support f
 
 ## What is the difference between our boards for Flipper Zero. 
 
-TBD
+<br/>
+
+![Alt text](https://github.com/HoneyHoneyTeam/3in1-WiFi-MultiBoard/blob/main/Assets/images/3boardsInComparison.png)
 
 ## How to upgrade Marauder firmware
 <details>
